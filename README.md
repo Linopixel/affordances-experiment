@@ -1,5 +1,16 @@
 # Instrumento Experimental de Avaliação de Interfaces
 
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo%20(TCC%20UFABC)-2EA44F?style=for-the-badge)
+
+
 Este repositório contém a aplicação web, a infraestrutura de coleta de eventos e os scripts de processamento e análise estatística desenvolvidos para o Trabalho de Conclusão de Curso (TCC) em Tecnologias e Sistemas de Informação (UFABC), intitulado: **"Affordances e Significantes como Estratégias para Aprimoramento da Usabilidade e do Desempenho em Sistemas de Informação"**.
 
 O artefato consiste em um instrumento experimental controlado para avaliação de usabilidade em tarefas de tomada de decisão, comparando duas condições de interface (Versão A — Experimental e Versão B — Controle) em delineamento intra-sujeito (*within-subject*) com amostra de $N=20$ participantes.
