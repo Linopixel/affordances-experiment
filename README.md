@@ -100,8 +100,10 @@ Para executar o ambiente experimental e reproduzir o pipeline de análise a part
 ## Documentação Adicional
 
 Para instruções detalhadas de condução presencial, arquitetura e solução de problemas, consulte:
+- [Protocolo de Coleta Presencial](docs/COLETA.md)
 * [Guia de Execução Local](docs/EXECUCAO.md)
 * [Solução de Problemas (Troubleshooting)](docs/TROUBLESHOOTING.md)
+- [Bases Consolidadas de Observação de Campo (P01–P20)](dados/)
 
 ---
 
