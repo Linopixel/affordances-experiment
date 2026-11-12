@@ -23,8 +23,9 @@ O artefato consiste em um instrumento experimental controlado para avaliação d
 affordances-experiment/
 ├── backend/                # API Flask e camada de persistência SQLite
 ├── config/                 # Configurações do experimento (4 tarefas, regras e contrabalanceamento P01–P20)
-├── data/                   # Dados brutos (raw) e bases analíticas processadas (processed)
-├── docs/                   # Documentação operacional de execução e troubleshooting
+├── dados/                  # Bases consolidadas de observação de campo (P01–P20) em .xlsx e .csv
+├── data/                   # Estrutura de diretórios locais para coleta bruta (raw) e processada (processed)
+├── docs/                   # Protocolo de coleta presencial, guia de execução e troubleshooting
 ├── notebooks/              # Jupyter Notebook para análise descritiva e visualização gráfica
 ├── processing/             # Scripts Python de consolidação, exportação, derivação de erros e métricas
 ├── scripts/                # Lógica JavaScript (base, logger resiliente, controle de sessão, derivações A e B)
