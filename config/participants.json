@@ -1,0 +1,72 @@
+{
+    "P01": {
+        "condition_order": "AB"
+    },
+    "P02": {
+        "condition_order": "BA"
+    },
+    "P03": {
+        "condition_order": "AB"
+    },
+    "P04": {
+        "condition_order": "BA"
+    },
+    "P05": {
+        "condition_order": "AB"
+    },
+    "P06": {
+        "condition_order": "BA"
+    },
+    "P07": {
+        "condition_order": "AB"
+    },
+    "P08": {
+        "condition_order": "BA"
+    },
+    "P09": {
+        "condition_order": "AB"
+    },
+    "P10": {
+        "condition_order": "BA"
+    },
+    "P11": {
+        "order": "AB",
+        "condition_order": "AB"
+    },
+    "P12": {
+        "order": "BA",
+        "condition_order": "BA"
+    },
+    "P13": {
+        "order": "AB",
+        "condition_order": "AB"
+    },
+    "P14": {
+        "order": "BA",
+        "condition_order": "BA"
+    },
+    "P15": {
+        "order": "AB",
+        "condition_order": "AB"
+    },
+    "P16": {
+        "order": "BA",
+        "condition_order": "BA"
+    },
+    "P17": {
+        "order": "AB",
+        "condition_order": "AB"
+    },
+    "P18": {
+        "order": "BA",
+        "condition_order": "BA"
+    },
+    "P19": {
+        "order": "AB",
+        "condition_order": "AB"
+    },
+    "P20": {
+        "order": "BA",
+        "condition_order": "BA"
+    }
+}

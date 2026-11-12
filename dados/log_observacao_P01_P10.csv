@@ -1,0 +1,12 @@
+FICHA DE OBSERVAÇÃO QUALITATIVA — PARTICIPANTE P04 • ORDEM BA,,,,,,,
+ID Participante:,P04,Data:,30/10/2026,Horário Início:,22:29:53,Horário Fim:,22:31:06
+,,,,,,,
+Tarefa / Condição,Leitura,Decisão,Motor,Verbal,,,
+A-T01,"Ficou perdido sobre o que fazer. (Varredura de 15 hovers, 20,04s).","Hesitação pós-escolha longa de 9,06s antes de confirmar (20,04s, 15 hovers).",Movimentação ampla do cursor buscando elementos (15 hovers).,,,,
+A-T02,"Leitura estática sem hovers (31,88s, 334 movimentos).","Solicitou Ajustes. (Decisão correta em 31,88s).",334 movimentos de mouse.,,,,
+A-T03,"OUTLIER EXTREMO: Ficou paralisado por mais de 2 min antes de agir. (234,30s / 3m 54s).","Fez mesma escolha anterior. (OUTLIER EXTREMO: 234,30s, 2.358 movimentos; Erro de Decisão).",2.358 movimentações de mouse; desorientação motora extrema.,Parou para falar com o pesquisador sobre itens da solicitação.,,,
+A-T04,"Leitura minuciosa com 22 hovers (14,01s).","Mesma escolha anterior - evitação de responsabilidade. (Decisão ""Rejeitar"" correta, 16,14s).",Navegação contínua (22 hovers).,,,,
+B-T01,"Tomou a decisão rapidamente. (Leitura rápida em 18,66s).","Registrou 2 trocas formais de opção (decision_changed) e hesitação de 6,76s (16,24s).",Duas alterações de seleção com clique antes da confirmação.,,,,
+B-T02,"Releitura pós-escolha de justificativa e histórico (3x por 3,80s); Erro de Navegação.","Mudou de decisão 2 vezes. (Decisão com indecisão, 10,45s; Erro de Navegação).","Erro de Navegação (20,27s, 21 hovers).",,,,
+B-T03,Ignorou completamente o botão 'Ver detalhes' em B.,"Erro de Decisão e Navegação (16,87s, 3 hovers).",Navegação sem abertura do disclosure (3 hovers).,,,,
+B-T04,Leitura com 8 hovers.,"Mesma escolha anterior - evitação de responsabilidade. (Decisão correta em 9,37s / 23,28s).",Navegação estável (8 hovers).,,,,

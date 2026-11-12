@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Aprovação de Solicitações</title>
+    <link rel="stylesheet" href="styles/design-tokens.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/session.css">
+</head>
+<body>
+    <div id="blocked-screen">
+        <h1>Viewport Insuficiente</h1>
+        <p>Este experimento deve ser realizado em um computador (viewport ≥ 1024px).<br>Por favor, acesse novamente em um desktop ou notebook.</p>
+    </div>
+
+    <div id="welcome-screen" class="session-screen">
+        <h2>Identificação do Participante</h2>
+        <div class="form-group">
+            <label for="participant-id-input">ID do Participante (fornecido pelo pesquisador):</label>
+            <input type="text" id="participant-id-input" class="form-input" placeholder="Ex: P01" maxlength="10">
+            <p id="id-error" class="error-message"></p>
+        </div>
+        <button id="btn-continue-id" class="btn-primary">Continuar</button>
+    </div>
+
+    <div id="consent-screen" class="session-screen">
+        <h2>Termo de Consentimento Livre e Esclarecido (TCLE)</h2>
+        
+        <!-- TCLE: o texto abaixo é um placeholder. O pesquisador deve substituí-lo pelo conteúdo ético aprovado antes da coleta. -->
+        <div class="tcle-content">
+            <p><strong>[PLACEHOLDER: Texto do Termo de Consentimento Livre e Esclarecido a ser fornecido e validado pelo pesquisador.]</strong></p>
+            <p>Este é um espaço reservado para as informações éticas, objetivos do estudo, riscos, benefícios e direitos do participante, conforme as diretrizes institucionais.</p>
+        </div>
+
+        <button id="btn-accept-consent" class="btn-primary">Aceito participar</button>
+    </div>
+
+    <script src="scripts/session.js"></script>
+    <script src="scripts/logger.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

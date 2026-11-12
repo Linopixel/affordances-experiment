@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "task_id": "T01",
+      "task_order": 1,
+      "request": {
+        "request_id": "REQ-001",
+        "priority": "Alta",
+        "value": "R$ 5.200",
+        "impact": "Alto",
+        "deadline": "Curto",
+        "cost": "Baixo",
+        "justification": "Solicitação urgente para manutenção preventiva do sistema de backups. A ação preventiva evita perda de dados críticos e garante continuidade operacional.",
+        "history": "Solicitação criada em 01/10/2026. Encaminhada para análise."
+      }
+    },
+    {
+      "task_id": "T02",
+      "task_order": 2,
+      "request": {
+        "request_id": "REQ-002",
+        "priority": "Alta",
+        "value": "R$ 12.800",
+        "impact": "Médio",
+        "deadline": "Curto",
+        "cost": "Alto",
+        "justification": "Melhorias no sistema.",
+        "history": "Solicitação criada em 02/10/2026. Pendente de aprovação orçamentária."
+      }
+    },
+    {
+      "task_id": "T03",
+      "task_order": 3,
+      "request": {
+        "request_id": "REQ-003",
+        "priority": "Alta",
+        "value": "R$ 8.400",
+        "impact": "Alto",
+        "deadline": "Curto",
+        "cost": "Médio",
+        "justification": "",
+        "history": "Solicitação criada em 03/10/2026. Sem documentação anexa."
+      }
+    },
+    {
+      "task_id": "T04",
+      "task_order": 4,
+      "request": {
+        "request_id": "REQ-004",
+        "priority": "Baixa",
+        "value": "R$ 15.600",
+        "impact": "Baixo",
+        "deadline": "Longo",
+        "cost": "Alto",
+        "justification": "Melhoria estética na interface do portal interno.",
+        "history": "Solicitação criada em 04/10/2026. Sem urgência operacional."
+      }
+    }
+  ]
+}

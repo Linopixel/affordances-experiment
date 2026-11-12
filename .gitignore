@@ -1,0 +1,16 @@
+__pycache__/
+.env
+*.db
+data/raw/experiment.db
+data/raw/raw_events.csv
+data/processed/*.csv
+data/processed/figures/
+.ipynb_checkpoints/
+# Ambiente virtual e sistema macOS
+venv/
+.venv/
+.DS_Store
+
+# Backups locais e rascunhos pessoais
+data/raw/backups/
+notas-tcc.md

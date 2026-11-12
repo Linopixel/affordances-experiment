@@ -1,0 +1,24 @@
+{
+  "tasks": {
+    "T01": {
+      "expected_decision": "approve",
+      "valid_targets": ["btn_approve", "btn_adjust", "btn_reject", "btn_confirm"],
+      "required_actions": {"A": [], "B": []}
+    },
+    "T02": {
+      "expected_decision": "request_adjustments",
+      "valid_targets": ["btn_approve", "btn_adjust", "btn_reject", "btn_confirm"],
+      "required_actions": {"A": [], "B": []}
+    },
+    "T03": {
+      "expected_decision": "request_adjustments",
+      "valid_targets": ["btn_approve", "btn_adjust", "btn_reject", "btn_confirm"],
+      "required_actions": {"A": [], "B": ["btn_disclosure"]}
+    },
+    "T04": {
+      "expected_decision": "reject",
+      "valid_targets": ["btn_approve", "btn_adjust", "btn_reject", "btn_confirm"],
+      "required_actions": {"A": [], "B": []}
+    }
+  }
+}

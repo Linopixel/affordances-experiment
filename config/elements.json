@@ -1,0 +1,16 @@
+{
+  "elements": [
+    "request_id",
+    "priority_badge",
+    "request_value",
+    "request_cost",
+    "request_impact",
+    "request_deadline",
+    "request_justification",
+    "request_history",
+    "btn_approve",
+    "btn_adjust",
+    "btn_reject",
+    "btn_confirm"
+  ]
+}

@@ -1,0 +1,237 @@
+/* ==========================================================================
+   B.CSS - Derivação B (Controle)
+   Layout neutro, sem hierarquia visual, sem significantes cromáticos.
+   Ajustado com espaçamentos compactos para exibição sem scroll.
+   ========================================================================== */
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #20242c;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+[hidden] { display: none !important; }
+
+/* Redução dos paddings verticais do container principal */
+.app-container { max-width: 880px; margin: 0 auto; padding: 16px 24px; }
+.app-header { margin: 0 0 16px; }
+.app-title {
+    margin: 0;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #20242c;
+    letter-spacing: -0.3px;
+}
+.task-container { min-height: auto; }
+
+/* Card */
+.card {
+    background: #fff;
+    border: 1px solid #cfd5dc;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(31,41,51,.08);
+}
+.card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 20px;
+    border-bottom: 1px solid #edf0f3;
+}
+.card__id {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #20242c;
+}
+
+.priority {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: #f7f8fa;
+    color: #505b6b;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Menu sanfona / Disclosure compactado */
+.disclosure { margin: 12px 20px 0; }
+.disclosure__trigger {
+    width: 100%;
+    padding: 10px 14px;
+    background: #f7f8fa;
+    border: 1px solid #cfd5dc;
+    border-radius: 6px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: #20242c;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+.disclosure__trigger:hover { background: #eef1f4; }
+.disclosure__trigger:focus-visible { outline: 3px solid #1a1a1a; outline-offset: 3px; }
+.disclosure__arrow { font-size: 12px; color: #505b6b; transition: transform .15s ease; }
+.disclosure__trigger[aria-expanded="true"] .disclosure__arrow { transform: rotate(180deg); }
+
+.disclosure__content { display: none; padding-top: 8px; }
+.disclosure__content[data-open="true"] { display: block; }
+
+.alert-inline {
+    padding: 10px 14px;
+    border: 1px solid #cfd5dc;
+    border-left: 4px solid #505b6b;
+    border-radius: 6px;
+    background: #f7f8fa;
+    color: #505b6b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Seções e Estrutura do Layout B (detail-row) */
+.section { padding: 16px 20px; border-bottom: 1px solid #edf0f3; }
+.section:last-of-type { border-bottom: 0; }
+dl { margin: 0; }
+dt {
+    margin: 0;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #505b6b;
+}
+dd { margin: 0; font-size: 15px; color: #20242c; }
+
+/* Linha curta: label à esquerda / valor à direita */
+.detail-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #edf0f3;
+}
+.detail-row:last-child { border-bottom: 0; }
+.detail-row dt { flex: 0 0 auto; }
+.detail-row dd { text-align: right; overflow-wrap: anywhere; }
+
+/* Linha empilhada (Justificativa/Histórico) */
+.detail-row--stacked {
+    display: block;
+    padding: 10px 0;
+}
+.detail-row--stacked dt { margin-bottom: 4px; }
+.detail-row--stacked dd {
+    text-align: left;
+    max-width: 68ch;
+    line-height: 1.45;
+}
+.detail-row dd.is-empty { color: #92969c; font-style: italic; }
+
+/* Área de Ações e Botões */
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 20px;
+    border-top: 1px solid #edf0f3;
+}
+.decision-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    border: 0; margin: 0; padding: 0;
+}
+
+/* Estilos dos Botões B */
+.btn {
+    font: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    min-height: 40px;
+    padding: 8px 16px;
+    border: 2px solid #cfd5dc;
+    border-radius: 4px;
+    background: #fff;
+    color: #20242c;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color .12s, border-color .12s;
+}
+.btn .check { display: none; font-weight: 700; }
+.btn[aria-pressed="true"] .check { display: inline; }
+.btn:hover:not(:disabled) { background: #f7f8fa; }
+.btn[aria-pressed="true"] {
+    background: #eef1f4;
+    border-color: #8e98a5;
+    color: #20242c;
+}
+
+.btn--confirm {
+    background: #20242c;
+    color: #fff;
+    border-color: #20242c;
+    min-width: 130px;
+}
+.btn--confirm:hover:not(:disabled) { background: #090b0e; }
+.btn--confirm:disabled {
+    background: #fff;
+    color: #92969c;
+    border: 2px dashed #e4e7eb;
+    cursor: not-allowed;
+}
+.btn:focus-visible { outline: 3px solid #1a1a1a; outline-offset: 3px; }
+
+/* Caixa de Confirmação B */
+.confirmation {
+    margin: 0 20px 16px;
+    padding: 10px 14px;
+    border: 1px solid #cfd5dc;
+    border-left: 4px solid #8e98a5;
+    border-radius: 4px;
+    background: #f7f8fa;
+    color: #505b6b;
+}
+.confirmation strong { display: block; font-size: 14px; font-weight: 700; margin-bottom: 2px; }
+.confirmation p { margin: 2px 0 0; font-size: 14px; }
+
+/* Responsividade e espaçamento vertical dos botões na Versão B */
+@media (max-width: 800px) {
+    .card__header { flex-wrap: wrap; }
+    .actions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px !important;
+    }
+    .decision-group {
+        flex-direction: column;
+        width: 100%;
+        gap: 0 !important;
+    }
+    .decision-group .btn {
+        width: 100% !important;
+        margin-bottom: 12px !important;
+    }
+    .decision-group .btn:last-child {
+        margin-bottom: 0 !important;
+    }
+    .btn--confirm {
+        width: 100% !important;
+    }
+}
