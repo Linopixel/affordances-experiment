@@ -1,4 +1,4 @@
-Participante,Ordem,Condição,Tarefa,Leitura,Decisão,Motor,Verbal
+﻿Participante,Ordem,Condição,Tarefa,Leitura,Decisão,Motor,Verbal
 P11,AB,A,A-T01,"Inspeção/varredura prévia com 6 hovers (40,16s).",Decisão 'Aprovar' correta.,Elevada oscilação e carga motora (416 movimentos).,"Perguntou: ""Vou fazer no achismo?"""
 P11,AB,A,A-T02,"Leitura visual estática (0 hovers, 13,75s).",Decisão 'Solicitar Ajustes' correta.,Trajetória motora direta (153 movimentos).,
 P11,AB,A,A-T03,"Leitura visual estática (0 hovers, 7,87s).",Erro de Decisão/Processamento na escolha de 'Rejeitar'.,Trajetória motora direta (94 movimentos).,
